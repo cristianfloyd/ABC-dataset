@@ -179,7 +179,7 @@ pip install requests pandas
 pip install jupyter matplotlib seaborn openpyxl pyarrow
 ```
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 ABC-dataset/
@@ -202,7 +202,7 @@ ABC-dataset/
 └── ofertas_muestra.json               # Datos extraídos (ejemplo)
 ```
 
-## 📈 Ejemplos de Consultas
+## Ejemplos de Consultas
 
 ### Ofertas activas de un distrito específico
 
@@ -246,7 +246,7 @@ for doc in data['response']['docs']:
     print(f"{doc['cargo']} - Cierre: {doc['finoferta']}")
 ```
 
-## 🎯 Funcionalidades Avanzadas
+## Funcionalidades Avanzadas
 
 ### Gestión de Cargos
 
@@ -317,7 +317,7 @@ Agrega información del cargo a cada oferta:
 }
 ```
 
-## 📓 Análisis en Jupyter Notebooks
+## Análisis en Jupyter Notebooks
 
 ### Notebooks incluidos:
 
@@ -337,7 +337,7 @@ El notebook incluye:
 - Ejemplos de filtrado
 - Exportación a CSV/Excel
 
-## ⚠️ Consideraciones
+## Consideraciones
 
 1. **Encoding:** El servidor envía datos en ISO-8859-1 (Latin-1). El scraper está configurado para manejarlo correctamente
 2. **SSL:** El servidor usa TLS 1.0 (antiguo). El scraper incluye adaptador SSL compatible
@@ -421,7 +421,7 @@ python analizar_pandas.py
 jupyter notebook analisis.ipynb
 ```
 
-## 🛠️ Solución de Problemas
+## Solución de Problemas
 
 ### Error de SSL
 El servidor usa TLS 1.0 antiguo. El scraper ya incluye el adaptador necesario.
@@ -432,7 +432,7 @@ El scraper está configurado para manejar ISO-8859-1 (Latin-1) correctamente.
 ### Error de encoding en Windows
 Si ves caracteres `�`, asegúrate de usar `encoding='utf-8-sig'` al exportar CSV.
 
-## 📊 Datos de Ejemplo
+## Datos de Ejemplo
 
 Los datos están organizados en archivos JSON con la siguiente estructura:
 
@@ -440,11 +440,11 @@ Los datos están organizados en archivos JSON con la siguiente estructura:
 **ofertas_por_cargos.json** - Ofertas agrupadas por código de cargo
 **ofertas_enriquecidas.json** - Ofertas con información adicional de cargos
 
-## 📧 Contacto
+## Contacto
 
 Para consultas sobre el uso de esta API, contactar a la DGCyE de Buenos Aires.
 
-## ⚖️ Licencia
+## Licencia
 
 Este proyecto es solo para fines educativos y de investigación. Los datos pertenecen a la Dirección General de Cultura y Educación de la Provincia de Buenos Aires.
 

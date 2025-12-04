@@ -216,12 +216,10 @@ if __name__ == "__main__":
     scraper = APDScraper()
 
     # Opción 1: Extraer TODAS las ofertas (puede ser ~721,000 según tu respuesta)
-    # scraper.save_to_json('ofertas_completas.json')
+    scraper.save_to_json('ofertas_completas.json')
 
     # Opción 2: Extraer solo las primeras 1000 ofertas (para pruebas)
-    scraper.save_to_json(
-        "ofertas_muestra.json", max_ofertas=1000, filtros={"estado": "Publicada"}
-    )
+    #
 
     # Opción 3: Extraer con filtros específicos
     # scraper.save_to_json(

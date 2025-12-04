@@ -30,7 +30,7 @@ class TLSAdapter(HTTPAdapter):
 def explorar_api():
     """Explora la estructura de la API y muestra estadísticas"""
 
-    url = API_ENDPOINT
+    url = str(API_ENDPOINT)
 
     # Obtener una muestra grande para análisis
     params = {
