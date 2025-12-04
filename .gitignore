@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data files (comentar si quieres incluir algunos)
+ofertas_*.json
+ofertas_*.csv
+temp_*.json
+test_*.json
+reporte_*.json
+reporte_*.csv
+cargos_sugeridos.json
+
+# Output files
+*.html
+nul
+select
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PDFs (documentación local)
+*.pdf

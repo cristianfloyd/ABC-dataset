@@ -1,0 +1,443 @@
+{
+    "metadata": {
+        "total_habilitantes": 48,
+        "total_bonificantes": 24,
+        "descripcion": "Cargos docentes - Titulo de Danza"
+    },
+    "habilitantes": [
+        {
+            "modalidad": "ADULTOS y CENS",
+            "codigo": "CJZ",
+            "area": "PROYECTO PRODUCCION DANZA  - PROYECTO DE PRODUCCION",
+            "valor": 25.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "ADZ",
+            "area": "DANZA",
+            "valor": 25.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "CCD",
+            "area": "CONSTRUCCION DE CIUDADANIA",
+            "valor": 25.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "CDZ",
+            "area": "EDUCACION ARTISTICA DANZA",
+            "valor": 25.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "MDA",
+            "area": "MAESTRO DE DANZA PRIMARIA DE ADULTOS",
+            "valor": 25.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "MDE",
+            "area": "MAESTRO DE DANZA PRIMARIA DE ESPECIAL",
+            "valor": 20.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "MDP",
+            "area": "MAESTRO DE DANZA PRIMARIA",
+            "valor": 25.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "MEC",
+            "area": "MAESTRO EXPRESION CORPORAL ESCUELAS EDUC.ESTETICA",
+            "valor": 25.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "MEI",
+            "area": "MAESTRO DE EXPRESIÓN CORPORAL INICIAL",
+            "valor": 25.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "PDA",
+            "area": "PROFESOR DANZAS 3º CICLO EGB ADULTOS",
+            "valor": 25.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "PDE",
+            "area": "PROFESOR DE DANZAS 3° CICLO EGB ESPECIAL",
+            "valor": 20.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "PEE",
+            "area": "PRECEPTOR ESCUELAS DE ESTETICA",
+            "valor": 20.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "PRA",
+            "area": "PRECEPTOR",
+            "valor": 25.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "PRT",
+            "area": "PRECEPTOR DE INSTITUTOS TERCIARIOS ARTISTICA",
+            "valor": 20.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YCD",
+            "area": "PANORAMA DE LA PRODUCCION CONTEMPORANEA EN DANZA",
+            "valor": 22.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YDD",
+            "area": "LENGUAJE DE LA DANZA",
+            "valor": 22.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YIC",
+            "area": "INICIACION A LA PRODUCCION COREOGRAFICA",
+            "valor": 22.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YLC",
+            "area": "ARTE-LENGUAJE COMPLEMENTARIO : IMPROVISACION Y COMPOSICION COREOGRAFICA",
+            "valor": 22.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YLZ",
+            "area": "LENGUAJE COMPLEMENTARIO",
+            "valor": 22.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YMP",
+            "area": "IMPROVISACION Y COMPOSICION COREOGRAFICA",
+            "valor": 21.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YOR",
+            "area": "ANALISIS COREOGRAFICO",
+            "valor": 21.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YPC",
+            "area": "INICIACION A LA PRODUCCION COREOGRAFICA",
+            "valor": 22.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YPD",
+            "area": "PROYECTO DE PRODUCCION EN DANZA",
+            "valor": 21.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YPE",
+            "area": "GESTION Y PRODUCCION GRUPAL",
+            "valor": 22.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YPG",
+            "area": "GESTION Y PRODUCCION GRUPAL",
+            "valor": 22.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YRC",
+            "area": "TRABAJO CORPORAL",
+            "valor": 22.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YVE",
+            "area": "IMPROVISACION",
+            "valor": 22.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YVN",
+            "area": "IMPROVISACION",
+            "valor": 22.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YXD",
+            "area": "AYUDANTE TÉCNICO PEDAGÓGICO EN DANZA",
+            "valor": 22.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YYE",
+            "area": "MUSICA Y MOVIMIENTO I Y II",
+            "valor": 22.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YYM",
+            "area": "MUSICA Y MOVIMIENTO",
+            "valor": 22.0
+        },
+        {
+            "modalidad": "PRIMARIA",
+            "codigo": "/PR",
+            "area": "PRECEPTOR",
+            "valor": 18.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "/PR",
+            "area": "PRECEPTOR",
+            "valor": 25.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "CA3",
+            "area": "ARTE : DANZA",
+            "valor": 21.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "CCD",
+            "area": "CONSTRUCCION DE CIUDADANIA",
+            "valor": 25.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "CL3",
+            "area": "ARTE : DANZA",
+            "valor": 21.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "CM3",
+            "area": "ARTE : DANZA",
+            "valor": 21.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "COR",
+            "area": "ANÁLISIS COREOGRÁFICO",
+            "valor": 21.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "CT3",
+            "area": "ARTE : DANZA",
+            "valor": 21.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "EAD",
+            "area": "ENCARGADO MEDIOS APOYO TEC-PED.COMUNIC. ARTE Y DIS",
+            "valor": 21.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "IMP",
+            "area": "IMPROVISACIÓN Y COMPOSICIÓN COREOGRÁFICA",
+            "valor": 21.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "LED",
+            "area": "LENGUAJE DE LA DANZA",
+            "valor": 21.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "PPD",
+            "area": "PROYECTO DE PRODUCCIÓN EN DANZA",
+            "valor": 21.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "RTE",
+            "area": "ARTE",
+            "valor": 21.0
+        },
+        {
+            "modalidad": "TECNICO PROFESIONAL",
+            "codigo": "/PR",
+            "area": "PRECEPTOR",
+            "valor": 25.0
+        },
+        {
+            "modalidad": "TECNICO PROFESIONAL",
+            "codigo": "CCD",
+            "area": "CONSTRUCCION DE CIUDADANIA",
+            "valor": 25.0
+        },
+        {
+            "modalidad": "TECNICO PROFESIONAL",
+            "codigo": "EAD",
+            "area": "ENCARGADO MEDIOS APOYO TEC-PED.COMUNIC. ARTE Y DIS",
+            "valor": 21.0
+        },
+        {
+            "modalidad": "TECNICO PROFESIONAL",
+            "codigo": "RTE",
+            "area": "ARTE",
+            "valor": 21.0
+        }
+    ],
+    "bonificantes": [
+        {
+            "modalidad": "ADULTOS y CENS",
+            "codigo": "CDZ",
+            "area": "EDUCACION ARTISTICA DANZA",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "ADULTOS y CENS",
+            "codigo": "CJZ",
+            "area": "PROYECTO PRODUCCION DANZA  - PROYECTO DE PRODUCCION",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "ADZ",
+            "area": "DANZA",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "CDZ",
+            "area": "EDUCACION ARTISTICA DANZA",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "MDA",
+            "area": "MAESTRO DE DANZA PRIMARIA DE ADULTOS",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "MDP",
+            "area": "MAESTRO DE DANZA PRIMARIA",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "MEC",
+            "area": "MAESTRO EXPRESION CORPORAL ESCUELAS EDUC.ESTETICA",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "MEI",
+            "area": "MAESTRO DE EXPRESIÓN CORPORAL INICIAL",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "PDA",
+            "area": "PROFESOR DANZAS 3º CICLO EGB ADULTOS",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "PDE",
+            "area": "PROFESOR DE DANZAS 3° CICLO EGB ESPECIAL",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YDD",
+            "area": "LENGUAJE DE LA DANZA",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YMP",
+            "area": "IMPROVISACION Y COMPOSICION COREOGRAFICA",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YOR",
+            "area": "ANALISIS COREOGRAFICO",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "ARTISTICA",
+            "codigo": "YPD",
+            "area": "PROYECTO DE PRODUCCION EN DANZA",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "CA3",
+            "area": "ARTE : DANZA",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "CL3",
+            "area": "ARTE : DANZA",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "CM3",
+            "area": "ARTE : DANZA",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "COR",
+            "area": "ANÁLISIS COREOGRÁFICO",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "CT3",
+            "area": "ARTE : DANZA",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "IMP",
+            "area": "IMPROVISACIÓN Y COMPOSICIÓN COREOGRÁFICA",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "LED",
+            "area": "LENGUAJE DE LA DANZA",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "PPD",
+            "area": "PROYECTO DE PRODUCCIÓN EN DANZA",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "SECUNDARIA",
+            "codigo": "RTE",
+            "area": "ARTE",
+            "valor": 1.0
+        },
+        {
+            "modalidad": "TECNICO PROFESIONAL",
+            "codigo": "RTE",
+            "area": "ARTE",
+            "valor": 1.0
+        }
+    ]
+}
