@@ -56,3 +56,4 @@ Thumbs.db
 
 # PDFs (documentación local)
 *.pdf
+.env

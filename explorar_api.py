@@ -8,6 +8,7 @@ from collections import Counter
 import urllib3
 import ssl
 from requests.adapters import HTTPAdapter
+from config import API_ENDPOINT
 
 # Deshabilitar advertencias de SSL
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -29,7 +30,7 @@ class TLSAdapter(HTTPAdapter):
 def explorar_api():
     """Explora la estructura de la API y muestra estadísticas"""
 
-    url = "https://servicios3.abc.gob.ar/valoracion.docente/api/apd.oferta.encabezado/select"
+    url = API_ENDPOINT
 
     # Obtener una muestra grande para análisis
     params = {
@@ -125,7 +126,7 @@ def explorar_api():
 def buscar_ofertas_activas():
     """Busca solo ofertas activas"""
 
-    url = "https://servicios3.abc.gob.ar/valoracion.docente/api/apd.oferta.encabezado/select"
+    url = API_ENDPOINT
 
     params = {
         "q": "*:*",

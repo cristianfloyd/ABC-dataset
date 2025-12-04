@@ -6,6 +6,7 @@ import urllib3
 import ssl
 from requests.adapters import HTTPAdapter
 import re
+from config import API_ENDPOINT
 
 # Deshabilitar advertencias de SSL
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -29,7 +30,7 @@ class APDScraper:
     """Scraper para Actos Públicos Digitales de ABC Buenos Aires"""
 
     def __init__(self):
-        self.base_url = "https://servicios3.abc.gob.ar/valoracion.docente/api/apd.oferta.encabezado/select"
+        self.base_url = API_ENDPOINT
         self.session = requests.Session()
         self.session.mount("https://", TLSAdapter())
         self.session.headers.update(

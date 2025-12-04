@@ -5,6 +5,7 @@ Script para extraer ofertas filtradas por cargos específicos
 from scraper_apd import APDScraper
 from cargos import CargoRepository
 import json
+from config import API_ENDPOINT
 
 
 def extraer_ofertas_por_cargos(
