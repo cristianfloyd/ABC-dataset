@@ -2,19 +2,19 @@
 
 Scraper y herramientas para extraer datos de ofertas laborales docentes de la Provincia de Buenos Aires.
 
-## 🎯 Descripción
+## Descripción
 
 Este proyecto permite extraer y analizar datos de **Actos Públicos Digitales** del sitio de la Dirección General de Cultura y Educación de la Provincia de Buenos Aires.
 
-## 🔍 API Descubierta
+## API Descubierta
 
-**Endpoint:** `https://servicios3.abc.gob.ar/valoracion.docente/api/apd.oferta.encabezado/select`
+**Endpoint:** API_ENDPOINT
 
 **Tecnología:** Apache Solr (motor de búsqueda)
 
 **Total de ofertas:** ~721,000 registros (según última consulta)
 
-## 📊 Datos Disponibles
+## Datos Disponibles
 
 Cada oferta contiene:
 
@@ -26,7 +26,7 @@ Cada oferta contiene:
 - **Reemplazo:** nombre, CUIL y motivo del reemplazado
 - **IDs:** IGE, CUPOF, ID SUNA, etc.
 
-## 🚀 Inicio Rápido
+## Inicio Rápido
 
 ### 1. Instalar dependencias
 
@@ -96,7 +96,7 @@ O usa el notebook incluido:
 jupyter notebook analisis.ipynb
 ```
 
-## 📝 Parámetros de la API
+## Parámetros de la API
 
 ### Parámetros básicos
 
@@ -127,7 +127,7 @@ fq='descnivelmodalidad:"PRIMARIA"'
 fq='estado:"Activa"&fq=numdistrito:1'
 ```
 
-## 📦 Estructura del JSON generado
+## Estructura del JSON generado
 
 ```json
 {
@@ -153,9 +153,9 @@ fq='estado:"Activa"&fq=numdistrito:1'
       "iniciooferta": "2023-04-18T00:00:00Z",
       "finoferta": "5023-04-19T10:30:00Z",
       "tomaposesion": "2023-04-19T00:00:00Z",
-      "domiciliodesempeno": "ECHAGÜE",
-      "reemp_apeynom": "DELL ORCO MARISA",
-      "reemp_cuil": "27167398281",
+      "domiciliodesempeno": "CALLE EJEMPLO 123",
+      "reemp_apeynom": "APELLIDO NOMBRE",
+      "reemp_cuil": "20123456789",
       "reemp_motivo": "Licencia no medica por ARTICULO 114",
       ...
     }
@@ -230,7 +230,7 @@ scraper.save_to_json(
 ```python
 import requests
 
-url = "https://servicios3.abc.gob.ar/valoracion.docente/api/apd.oferta.encabezado/select"
+url = API_ENDPOINT
 params = {
     'q': '*:*',
     'fq': 'estado:"Activa"',
